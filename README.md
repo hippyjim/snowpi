@@ -1,3 +1,3 @@
 # snowpi
 
-Base scripts an projects for the snowpi.
+Base scripts and projects for the snowpi.
