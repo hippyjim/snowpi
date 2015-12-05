@@ -10,10 +10,10 @@ LEDs = [7,8,9,22,18,17,23,24,25]
 # Setup LED pins as outputs
 for x in range(8):
     GPIO.setup(LEDs[x], GPIO.OUT)
-    GPIO.output(LEDs[x], True)
+    GPIO.output(LEDs[x], False)
 # Light all LEDs
 for x in range(8):
-    GPIO.output(LEDs[x], False)
+    GPIO.output(LEDs[x], True)
 
 # Reset GPIO settings
 GPIO.cleanup()
